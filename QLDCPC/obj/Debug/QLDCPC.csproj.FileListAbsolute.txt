@@ -18,3 +18,9 @@ D:\Works\HK5\PTUD\DoAn\QLDCPC\QLDCPC\obj\Debug\QLDCPC.FormSanPham.resources
 D:\Works\HK5\PTUD\DoAn\QLDCPC\QLDCPC\obj\Debug\QLDCPC.FormHoaDon.resources
 D:\Works\HK5\PTUD\DoAn\QLDCPC\QLDCPC\obj\Debug\QLDCPC.FormThongKe.resources
 D:\Works\HK5\PTUD\DoAn\QLDCPC\QLDCPC\obj\Debug\QLDCPC.FormGiaoHangcs.resources
+D:\Works\HK5\PTUD\DoAn\QLDCPC\QLDCPC\bin\Debug\Syncfusion.Compression.Base.dll
+D:\Works\HK5\PTUD\DoAn\QLDCPC\QLDCPC\bin\Debug\Syncfusion.DocIO.Base.dll
+D:\Works\HK5\PTUD\DoAn\QLDCPC\QLDCPC\bin\Debug\Syncfusion.XlsIO.Base.dll
+D:\Works\HK5\PTUD\DoAn\QLDCPC\QLDCPC\bin\Debug\Syncfusion.Compression.Base.xml
+D:\Works\HK5\PTUD\DoAn\QLDCPC\QLDCPC\bin\Debug\Syncfusion.DocIO.Base.xml
+D:\Works\HK5\PTUD\DoAn\QLDCPC\QLDCPC\bin\Debug\Syncfusion.XlsIO.Base.xml
