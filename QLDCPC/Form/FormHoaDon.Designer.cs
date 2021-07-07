@@ -52,6 +52,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnword = new Bunifu.Framework.UI.BunifuFlatButton();
             this.lbltongtien = new System.Windows.Forms.Label();
             this.lbldiachi = new System.Windows.Forms.Label();
             this.lblthogntin = new System.Windows.Forms.Label();
@@ -63,7 +64,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.btnword = new Bunifu.Framework.UI.BunifuFlatButton();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.datasanpham)).BeginInit();
             this.panel1.SuspendLayout();
@@ -316,6 +316,42 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Thông tin chung";
             // 
+            // btnword
+            // 
+            this.btnword.Activecolor = System.Drawing.Color.DarkBlue;
+            this.btnword.BackColor = System.Drawing.Color.DarkBlue;
+            this.btnword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnword.BorderRadius = 0;
+            this.btnword.ButtonText = "Xuất vouncher";
+            this.btnword.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnword.DisabledColor = System.Drawing.Color.Gray;
+            this.btnword.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnword.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnword.Iconimage")));
+            this.btnword.Iconimage_right = null;
+            this.btnword.Iconimage_right_Selected = null;
+            this.btnword.Iconimage_Selected = null;
+            this.btnword.IconMarginLeft = 0;
+            this.btnword.IconMarginRight = 0;
+            this.btnword.IconRightVisible = true;
+            this.btnword.IconRightZoom = 0D;
+            this.btnword.IconVisible = true;
+            this.btnword.IconZoom = 90D;
+            this.btnword.IsTab = false;
+            this.btnword.Location = new System.Drawing.Point(27, 243);
+            this.btnword.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.btnword.Name = "btnword";
+            this.btnword.Normalcolor = System.Drawing.Color.DarkBlue;
+            this.btnword.OnHovercolor = System.Drawing.Color.Blue;
+            this.btnword.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnword.selected = false;
+            this.btnword.Size = new System.Drawing.Size(236, 56);
+            this.btnword.TabIndex = 18;
+            this.btnword.Text = "Xuất vouncher";
+            this.btnword.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnword.Textcolor = System.Drawing.Color.White;
+            this.btnword.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnword.Click += new System.EventHandler(this.btnword_Click);
+            // 
             // lbltongtien
             // 
             this.lbltongtien.AutoSize = true;
@@ -425,42 +461,6 @@
             this.label4.Size = new System.Drawing.Size(73, 19);
             this.label4.TabIndex = 6;
             this.label4.Text = "Ngày đặt";
-            // 
-            // btnword
-            // 
-            this.btnword.Activecolor = System.Drawing.Color.DarkBlue;
-            this.btnword.BackColor = System.Drawing.Color.DarkBlue;
-            this.btnword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnword.BorderRadius = 0;
-            this.btnword.ButtonText = "Xuất vouncher";
-            this.btnword.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnword.DisabledColor = System.Drawing.Color.Gray;
-            this.btnword.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnword.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnword.Iconimage")));
-            this.btnword.Iconimage_right = null;
-            this.btnword.Iconimage_right_Selected = null;
-            this.btnword.Iconimage_Selected = null;
-            this.btnword.IconMarginLeft = 0;
-            this.btnword.IconMarginRight = 0;
-            this.btnword.IconRightVisible = true;
-            this.btnword.IconRightZoom = 0D;
-            this.btnword.IconVisible = true;
-            this.btnword.IconZoom = 90D;
-            this.btnword.IsTab = false;
-            this.btnword.Location = new System.Drawing.Point(27, 243);
-            this.btnword.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
-            this.btnword.Name = "btnword";
-            this.btnword.Normalcolor = System.Drawing.Color.DarkBlue;
-            this.btnword.OnHovercolor = System.Drawing.Color.Blue;
-            this.btnword.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnword.selected = false;
-            this.btnword.Size = new System.Drawing.Size(236, 56);
-            this.btnword.TabIndex = 18;
-            this.btnword.Text = "Xuất vouncher";
-            this.btnword.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnword.Textcolor = System.Drawing.Color.White;
-            this.btnword.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnword.Click += new System.EventHandler(this.btnword_Click);
             // 
             // FormHoaDon
             // 

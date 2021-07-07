@@ -70,6 +70,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Export\ExcelExport.cs" />
     <Compile Include="Export\Constants.cs" />
     <Compile Include="Export\FileCommon.cs" />
     <Compile Include="Form\FormGiaoHangcs.cs">

@@ -29,12 +29,14 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormThongKe));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblthongke = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnexcel = new Bunifu.Framework.UI.BunifuFlatButton();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -80,6 +82,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnexcel);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
@@ -96,6 +99,42 @@
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin";
+            // 
+            // btnexcel
+            // 
+            this.btnexcel.Activecolor = System.Drawing.Color.MediumSeaGreen;
+            this.btnexcel.BackColor = System.Drawing.Color.SeaGreen;
+            this.btnexcel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnexcel.BorderRadius = 0;
+            this.btnexcel.ButtonText = "Thống kê";
+            this.btnexcel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnexcel.DisabledColor = System.Drawing.Color.Gray;
+            this.btnexcel.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnexcel.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnexcel.Iconimage")));
+            this.btnexcel.Iconimage_right = null;
+            this.btnexcel.Iconimage_right_Selected = null;
+            this.btnexcel.Iconimage_Selected = null;
+            this.btnexcel.IconMarginLeft = 0;
+            this.btnexcel.IconMarginRight = 0;
+            this.btnexcel.IconRightVisible = true;
+            this.btnexcel.IconRightZoom = 0D;
+            this.btnexcel.IconVisible = true;
+            this.btnexcel.IconZoom = 90D;
+            this.btnexcel.IsTab = false;
+            this.btnexcel.Location = new System.Drawing.Point(35, 211);
+            this.btnexcel.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
+            this.btnexcel.Name = "btnexcel";
+            this.btnexcel.Normalcolor = System.Drawing.Color.SeaGreen;
+            this.btnexcel.OnHovercolor = System.Drawing.Color.MediumSeaGreen;
+            this.btnexcel.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnexcel.selected = false;
+            this.btnexcel.Size = new System.Drawing.Size(282, 49);
+            this.btnexcel.TabIndex = 19;
+            this.btnexcel.Text = "Thống kê";
+            this.btnexcel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnexcel.Textcolor = System.Drawing.Color.White;
+            this.btnexcel.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnexcel.Click += new System.EventHandler(this.btnexcel_Click);
             // 
             // label4
             // 
@@ -438,5 +477,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private Bunifu.Framework.UI.BunifuFlatButton btnexcel;
     }
 }
