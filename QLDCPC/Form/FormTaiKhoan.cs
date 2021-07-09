@@ -50,5 +50,17 @@ namespace QLDCPC
         {
 
         }
+
+        private void btntaotk_Click(object sender, EventArgs e)
+        {
+            if (txtten.Text == "" || txttkmoi.Text == ""||mktaomoi.Text=="")
+            { MessageBox.Show("Vui lòng nhập đầy đủ thông tin"); }
+            else
+            {
+                xuly.ThemTaiKhoan(txtten.Text, txttkmoi.Text, mktaomoi.Text);
+                xuly.LoadTaiKhoan(datataikhoan);
+            }
+            
+        }
     }
 }

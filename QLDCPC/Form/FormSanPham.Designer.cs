@@ -100,7 +100,7 @@
             this.datasanpham.GridColor = System.Drawing.SystemColors.ButtonShadow;
             this.datasanpham.HeaderBgColor = System.Drawing.Color.IndianRed;
             this.datasanpham.HeaderForeColor = System.Drawing.Color.Honeydew;
-            this.datasanpham.Location = new System.Drawing.Point(0, 178);
+            this.datasanpham.Location = new System.Drawing.Point(0, 188);
             this.datasanpham.Name = "datasanpham";
             this.datasanpham.ReadOnly = true;
             this.datasanpham.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -117,7 +117,7 @@
             this.datasanpham.RowTemplate.ReadOnly = true;
             this.datasanpham.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.datasanpham.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.datasanpham.Size = new System.Drawing.Size(946, 350);
+            this.datasanpham.Size = new System.Drawing.Size(946, 340);
             this.datasanpham.TabIndex = 1;
             this.datasanpham.SelectionChanged += new System.EventHandler(this.datasanpham_SelectionChanged);
             // 

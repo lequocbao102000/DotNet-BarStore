@@ -73,5 +73,32 @@ namespace QLDCPC
                 return false;
             }
         }
+
+        public void ThemTaiKhoan(string pTen,string tentk, string pMatKhau)
+        {
+            try
+            {
+
+
+                var taikhoan = from tk3 in qldc.TAIKHOANs where tk3.TENTK == pTen select tk3;
+                if (taikhoan.Count() != 0)
+                { MessageBox.Show("Tên tài khoản đã tồn tại !"); }
+                else
+                {
+                    TAIKHOAN tk = new TAIKHOAN();
+
+                    tk.TENTK = tentk;
+                    tk.HOTEN = pTen;
+                    tk.MATKHAU = pMatKhau;
+                    tk.VAITRO = "Nhân viên";
+                    tk.TRANGTHAI = "ok";
+                    qldc.TAIKHOANs.InsertOnSubmit(tk);
+                    qldc.SubmitChanges();
+                }
+            }
+            catch { }
+          
+
+        }
     }
 }

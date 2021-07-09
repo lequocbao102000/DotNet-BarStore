@@ -30,10 +30,10 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormTaiKhoan));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblphanquyen = new System.Windows.Forms.Label();
             this.paneldoimk = new System.Windows.Forms.Panel();
             this.btndoimk = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -43,9 +43,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtmkht = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.label1 = new System.Windows.Forms.Label();
-            this.paneltaotk = new System.Windows.Forms.Panel();
-            this.bunifuMetroTextbox1 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.label5 = new System.Windows.Forms.Label();
             this.panelquanly = new System.Windows.Forms.Panel();
             this.datataikhoan = new Bunifu.Framework.UI.BunifuCustomDataGrid();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -53,10 +50,19 @@
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txttkmoi = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.paneltaotk = new System.Windows.Forms.Panel();
+            this.mktaomoi = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.btntaotk = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtten = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.label8 = new System.Windows.Forms.Label();
             this.paneldoimk.SuspendLayout();
-            this.paneltaotk.SuspendLayout();
             this.panelquanly.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.datataikhoan)).BeginInit();
+            this.paneltaotk.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblphanquyen
@@ -205,43 +211,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Mật khẩu hiện tại";
             // 
-            // paneltaotk
-            // 
-            this.paneltaotk.Controls.Add(this.bunifuMetroTextbox1);
-            this.paneltaotk.Controls.Add(this.label5);
-            this.paneltaotk.Dock = System.Windows.Forms.DockStyle.Right;
-            this.paneltaotk.Location = new System.Drawing.Point(479, 0);
-            this.paneltaotk.Name = "paneltaotk";
-            this.paneltaotk.Size = new System.Drawing.Size(449, 524);
-            this.paneltaotk.TabIndex = 7;
-            // 
-            // bunifuMetroTextbox1
-            // 
-            this.bunifuMetroTextbox1.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox1.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox1.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox1.BorderThickness = 3;
-            this.bunifuMetroTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox1.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMetroTextbox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox1.isPassword = false;
-            this.bunifuMetroTextbox1.Location = new System.Drawing.Point(223, 38);
-            this.bunifuMetroTextbox1.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMetroTextbox1.Name = "bunifuMetroTextbox1";
-            this.bunifuMetroTextbox1.Size = new System.Drawing.Size(203, 44);
-            this.bunifuMetroTextbox1.TabIndex = 3;
-            this.bunifuMetroTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(38, 47);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(158, 23);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "Mật khẩu hiện tại";
-            // 
             // panelquanly
             // 
             this.panelquanly.Controls.Add(this.datataikhoan);
@@ -255,35 +224,35 @@
             // 
             this.datataikhoan.AllowUserToAddRows = false;
             this.datataikhoan.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.datataikhoan.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.datataikhoan.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle37;
             this.datataikhoan.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.datataikhoan.BackgroundColor = System.Drawing.Color.Gainsboro;
             this.datataikhoan.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.datataikhoan.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.datataikhoan.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.IndianRed;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Honeydew;
-            dataGridViewCellStyle2.Padding = new System.Windows.Forms.Padding(15);
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.datataikhoan.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle38.BackColor = System.Drawing.Color.IndianRed;
+            dataGridViewCellStyle38.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle38.ForeColor = System.Drawing.Color.Honeydew;
+            dataGridViewCellStyle38.Padding = new System.Windows.Forms.Padding(15);
+            dataGridViewCellStyle38.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle38.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle38.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.datataikhoan.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle38;
             this.datataikhoan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.datataikhoan.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2,
             this.Column3});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.LightCoral;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.datataikhoan.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle39.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle39.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle39.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle39.SelectionBackColor = System.Drawing.Color.LightCoral;
+            dataGridViewCellStyle39.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle39.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.datataikhoan.DefaultCellStyle = dataGridViewCellStyle39;
             this.datataikhoan.Dock = System.Windows.Forms.DockStyle.Fill;
             this.datataikhoan.DoubleBuffered = true;
             this.datataikhoan.EnableHeadersVisualStyles = false;
@@ -294,14 +263,14 @@
             this.datataikhoan.Name = "datataikhoan";
             this.datataikhoan.ReadOnly = true;
             this.datataikhoan.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.LightCoral;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.datataikhoan.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle40.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle40.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle40.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle40.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle40.SelectionBackColor = System.Drawing.Color.LightCoral;
+            dataGridViewCellStyle40.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle40.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.datataikhoan.RowHeadersDefaultCellStyle = dataGridViewCellStyle40;
             this.datataikhoan.RowHeadersVisible = false;
             this.datataikhoan.RowTemplate.Height = 50;
             this.datataikhoan.RowTemplate.ReadOnly = true;
@@ -348,6 +317,149 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "label4";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(11, 56);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(125, 23);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "Tên tài khoản";
+            // 
+            // txttkmoi
+            // 
+            this.txttkmoi.BorderColorFocused = System.Drawing.Color.Blue;
+            this.txttkmoi.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txttkmoi.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.txttkmoi.BorderThickness = 3;
+            this.txttkmoi.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txttkmoi.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txttkmoi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txttkmoi.isPassword = false;
+            this.txttkmoi.Location = new System.Drawing.Point(134, 47);
+            this.txttkmoi.Margin = new System.Windows.Forms.Padding(4);
+            this.txttkmoi.Name = "txttkmoi";
+            this.txttkmoi.Size = new System.Drawing.Size(203, 44);
+            this.txttkmoi.TabIndex = 3;
+            this.txttkmoi.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // paneltaotk
+            // 
+            this.paneltaotk.Controls.Add(this.btntaotk);
+            this.paneltaotk.Controls.Add(this.txtten);
+            this.paneltaotk.Controls.Add(this.label8);
+            this.paneltaotk.Controls.Add(this.label7);
+            this.paneltaotk.Controls.Add(this.mktaomoi);
+            this.paneltaotk.Controls.Add(this.label6);
+            this.paneltaotk.Controls.Add(this.txttkmoi);
+            this.paneltaotk.Controls.Add(this.label5);
+            this.paneltaotk.Dock = System.Windows.Forms.DockStyle.Right;
+            this.paneltaotk.Location = new System.Drawing.Point(496, 0);
+            this.paneltaotk.Name = "paneltaotk";
+            this.paneltaotk.Size = new System.Drawing.Size(432, 524);
+            this.paneltaotk.TabIndex = 7;
+            // 
+            // mktaomoi
+            // 
+            this.mktaomoi.BorderColorFocused = System.Drawing.Color.Blue;
+            this.mktaomoi.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.mktaomoi.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.mktaomoi.BorderThickness = 3;
+            this.mktaomoi.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.mktaomoi.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.mktaomoi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.mktaomoi.isPassword = false;
+            this.mktaomoi.Location = new System.Drawing.Point(134, 99);
+            this.mktaomoi.Margin = new System.Windows.Forms.Padding(4);
+            this.mktaomoi.Name = "mktaomoi";
+            this.mktaomoi.Size = new System.Drawing.Size(203, 44);
+            this.mktaomoi.TabIndex = 5;
+            this.mktaomoi.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(11, 108);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(91, 23);
+            this.label6.TabIndex = 4;
+            this.label6.Text = "Mật khẩu";
+            // 
+            // btntaotk
+            // 
+            this.btntaotk.Activecolor = System.Drawing.Color.Firebrick;
+            this.btntaotk.BackColor = System.Drawing.Color.IndianRed;
+            this.btntaotk.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btntaotk.BorderRadius = 0;
+            this.btntaotk.ButtonText = "Tạo tài khoản";
+            this.btntaotk.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btntaotk.DisabledColor = System.Drawing.Color.Gray;
+            this.btntaotk.Iconcolor = System.Drawing.Color.Transparent;
+            this.btntaotk.Iconimage = ((System.Drawing.Image)(resources.GetObject("btntaotk.Iconimage")));
+            this.btntaotk.Iconimage_right = null;
+            this.btntaotk.Iconimage_right_Selected = null;
+            this.btntaotk.Iconimage_Selected = null;
+            this.btntaotk.IconMarginLeft = 0;
+            this.btntaotk.IconMarginRight = 0;
+            this.btntaotk.IconRightVisible = true;
+            this.btntaotk.IconRightZoom = 0D;
+            this.btntaotk.IconVisible = true;
+            this.btntaotk.IconZoom = 90D;
+            this.btntaotk.IsTab = false;
+            this.btntaotk.Location = new System.Drawing.Point(15, 202);
+            this.btntaotk.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btntaotk.Name = "btntaotk";
+            this.btntaotk.Normalcolor = System.Drawing.Color.IndianRed;
+            this.btntaotk.OnHovercolor = System.Drawing.Color.Firebrick;
+            this.btntaotk.OnHoverTextColor = System.Drawing.Color.White;
+            this.btntaotk.selected = false;
+            this.btntaotk.Size = new System.Drawing.Size(404, 59);
+            this.btntaotk.TabIndex = 6;
+            this.btntaotk.Text = "Tạo tài khoản";
+            this.btntaotk.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btntaotk.Textcolor = System.Drawing.Color.White;
+            this.btntaotk.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btntaotk.Click += new System.EventHandler(this.btntaotk_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(121, 9);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(216, 23);
+            this.label7.TabIndex = 7;
+            this.label7.Text = "TẠO TÀI KHOẢN MỚI";
+            // 
+            // txtten
+            // 
+            this.txtten.BorderColorFocused = System.Drawing.Color.Blue;
+            this.txtten.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtten.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.txtten.BorderThickness = 3;
+            this.txtten.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtten.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txtten.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtten.isPassword = false;
+            this.txtten.Location = new System.Drawing.Point(134, 150);
+            this.txtten.Margin = new System.Windows.Forms.Padding(4);
+            this.txtten.Name = "txtten";
+            this.txtten.Size = new System.Drawing.Size(203, 44);
+            this.txtten.TabIndex = 9;
+            this.txtten.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(11, 161);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(66, 23);
+            this.label8.TabIndex = 8;
+            this.label8.Text = "Họ tên";
+            // 
             // FormTaiKhoan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -363,10 +475,10 @@
             this.Load += new System.EventHandler(this.FormTaiKhoan_Load);
             this.paneldoimk.ResumeLayout(false);
             this.paneldoimk.PerformLayout();
-            this.paneltaotk.ResumeLayout(false);
-            this.paneltaotk.PerformLayout();
             this.panelquanly.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.datataikhoan)).EndInit();
+            this.paneltaotk.ResumeLayout(false);
+            this.paneltaotk.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -391,7 +503,13 @@
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel paneltaotk;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox1;
+        private Bunifu.Framework.UI.BunifuFlatButton btntaotk;
+        private Bunifu.Framework.UI.BunifuMetroTextbox mktaomoi;
+        private System.Windows.Forms.Label label6;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txttkmoi;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label7;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txtten;
+        private System.Windows.Forms.Label label8;
     }
 }
