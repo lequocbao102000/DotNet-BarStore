@@ -28,6 +28,19 @@ namespace QLDCPC
         private void cbotype_SelectedIndexChanged(object sender, EventArgs e)
         {
             xuly.LoadDSShip(cbotype, datagiaohang);
+            if (cbotype.SelectedIndex == 0)
+            {
+                btngiaohang.Enabled = true;
+            }
+            else
+            {
+                btngiaohang.Enabled = false;
+            }
+        }
+
+        private void btngiaohang_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
